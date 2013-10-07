@@ -45,4 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
-
+gem 'sequel', require: 'sequel/no_core_ext'
+gem 'sequel-devise'
