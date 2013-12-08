@@ -1,8 +1,6 @@
 class User < Sequel::Model
 
   plugin :devise
-  plugin :validation_class_methods
-  plugin :dirty
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable

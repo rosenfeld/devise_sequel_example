@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -46,4 +46,4 @@ end
 
 gem 'devise'
 gem 'sequel', require: 'sequel/no_core_ext'
-gem 'sequel-devise'
+gem 'sequel-devise', '>= 0.0.3'
