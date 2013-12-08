@@ -13,7 +13,7 @@ You'll probably need to implement a few other methods for using some of the Devi
 
 Anyway, this may help you getting the basics working so that you can go forward from there.
 
-If you want to remove the `active\_record` gem dependency but want to keep using AR migrations
+If you want to remove the `active_record` gem dependency but want to keep using AR migrations
 you may be interested in projects like
 [standalone_migrations](https://github.com/thuss/standalone-migrations) or
 [Active Record Migrations](https://github.com/rosenfeld/active_record_migrations).
